@@ -1,0 +1,1 @@
+This program allows the user to convert between different units of pressure. Input is the unit the user has and it outputs the others. These are easy enough to write and I'm presently putting together a desktop GUI that will allow the user to choose which calculation they want to perform and then output the result.
