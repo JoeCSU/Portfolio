@@ -1,0 +1,177 @@
+﻿html, body, form {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#div1 {
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-spacing: 0px;
+    border: 0;
+}
+
+#table1 p.center {
+    text-align: center;
+}
+
+tr {
+    white-space: nowrap;
+}
+
+#tr2 {
+    background-color: #edede8;
+    height: 20px;
+}
+
+#tr1 {
+    height: 20px;
+}
+
+#td2 {
+    width: 1px;
+    height: auto;
+}
+
+#td9 {
+    width: 1px;
+    height: 1%;
+}
+
+#td10 {
+    width: 1170px;
+    height: 1%;
+    text-align: right;
+}
+
+#td11 {
+    width: auto;
+    height: 1%;
+    text-align: left;
+}
+
+.td1 {
+    width: 146px;
+    height: auto;
+    text-align: right;
+}
+
+#p1 {
+    width: 103px;
+    height: auto;
+}
+
+#p6 {
+    height: 20px;
+}
+
+#p8 {
+    height: 30%;
+}
+
+#p9 {
+    height: 10%;
+}
+
+#p10 {
+    height: auto;
+}
+
+p {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: initial;
+    color: black;
+    text-decoration: none;
+}
+
+.auto1 {
+    width: auto;
+    height: 1%;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+#td4 {
+    width: auto;
+    height: auto;
+    text-align: left;
+}
+
+.aspElement {
+    white-space: nowrap;
+    margin-left: 0px;
+    height: 36px;
+    width: 129px;
+    border-style: outset;
+    background-color: white;
+    border-color: rgba(248, 245, 240, 0.29);
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#td6 {
+    width: 7%;
+    height: 3%;
+    text-align: center;
+}
+
+#td7 {
+    width: 98%;
+    height: auto;
+    text-align: center;
+}
+
+#td3 {
+    width: 1182px;
+    height: 2%;
+    text-align: right;
+}
+
+#td5 {
+    width: auto;
+    height: 3%;
+}
+
+#td8 {
+    width: 146px;
+    height: 1%;
+    text-align: right;
+}
+
+#HyperLink1, #HyperLink2, #HyperLink3, #HyperLink4, #HyperLink6, #HyperLink8 {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: initial;
+    color: black;
+    text-decoration: unset;
+}
+
+#HyperLink12 {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: initial;
+    color: blue;
+    text-decoration: underline;
+}
+
+#HyperLink5, #HyperLink7, #HyperLink9, #HyperLink10, #HyperLink11 {
+    font-family: Arial;
+    font-size: 13px;
+    font-style: initial;
+    color: Gray;
+    text-decoration: underline;
+}
+
+#Image1 {
+    height: 95px;
+    width: 290px;
+}
