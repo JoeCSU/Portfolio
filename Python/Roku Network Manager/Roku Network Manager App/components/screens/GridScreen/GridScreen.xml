@@ -29,10 +29,10 @@
     <children>
         <FadingBackground
             id="Background"
-            width="1920"
-            height="1080"
+            width="1280"
+            height="720"
             color="0xAAAAAA"
-            ShadeOpacity="1.8"/>
+            ShadeOpacity="0.8"/>
             
         <RowList
             id="RowList"
@@ -45,10 +45,15 @@
             rowFocusAnimationStyle="fixedFocusWrap"
             rowItemSize="[[262, 147]]"
             rowItemSpacing="[[16.5, 3]]"
-            showRowLabel="false"
+            showRowLabel="true"
             showRowCounter="true"
             rowLabelOffset="[[147, 20]]"/>
-
+            
+        <!-- <Poster
+            translation="[0, 650]"
+            uri="pkg:/images/BG_dark_down.png"
+            width="2000"
+            height="95" /> -->
 
         <Description 
             id="Description"

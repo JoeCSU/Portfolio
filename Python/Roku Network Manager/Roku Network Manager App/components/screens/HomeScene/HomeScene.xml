@@ -37,23 +37,7 @@
             width="1280"
             height="720"/>
             
-        <LoadingIndicator
-              id="loadingIndicator"
-              imageUri="pkg:/components/screens/LoadingIndicator/loader.png"
-              clockwise="false"
-              spinInterval="2"
-              fadeInterval="0.5"
-              spacing="20"
-              imageWidth="100"
-              text="Cutting the grass..."
-              width="1280"
-              height="720"
-              translation="[240, 80]"
-              centered="true"
-              textPadding="10"
-              font="font:SmallBoldSystemFont"
-              backgroundColor="0x551A8B"
-              backgroundOpacity="0"/>        
+     
 
     </children> 
 </component>

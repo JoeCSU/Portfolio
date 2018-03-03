@@ -6,8 +6,9 @@ Function Init()
     ? "[GridScreen] Init"
     m.top.observeField("focusedChild", "OnChildFocused")
     m.rowList = m.top.findNode("RowList")
+
     m.Description = m.top.findNode("Description")
-    'm.Background = m.top.findNode("Background")
+    m.Background = m.top.findNode("Background")
 End Function
 
 ' handler of focused child in GridScreen
@@ -37,7 +38,7 @@ Sub OnItemFocused()
             m.Description.content = focusedContent
             
             'set background wallpaper
-            'm.Background.uri = focusedContent.hdBackgroundImageUrl
+            m.Background.uri = focusedContent.hdBackgroundImageUrl
         end if
     end if
 end Sub

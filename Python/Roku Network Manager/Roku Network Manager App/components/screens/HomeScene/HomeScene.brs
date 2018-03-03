@@ -52,7 +52,6 @@ end Sub
 Sub OnChangeContent()
     ? "OnChangeContent "
     m.GridScreen.setFocus(true)
-    m.loadingIndicator.control = "stop"
 End Sub
 
 ' Main Remote keypress event loop

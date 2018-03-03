@@ -1,5 +1,5 @@
 ' ********** Copyright 2016 Roku Corp.  All Rights Reserved. ********** 
- 
+ 'I modified a few lines of the code in these files, but most of it is from Roku Corp.'s examples
  sub RunUserInterface()
     screen = CreateObject("roSGScreen")
     scene = screen.CreateScene("HomeScene")
@@ -58,12 +58,13 @@ End Function
 
 Function GetApiArray()
     url = CreateObject("roUrlTransfer")
-    url.SetUrl("http://192.168.3.5/api/scripts.xml")
-    rsp = url.GetToString()
-
+    url.SetUrl("http://192.168.3.5/api/scripts.xml")   'here for example
+    rsp = CreateObject("roString")
+    rsp = url.GetToString()  
+    responseXML = CreateObject("roXMLElement")
     responseXML = ParseXML(rsp)
-    responseXML = responseXML.GetChildElements()
-    responseArray = responseXML.GetChildElements()
+    responseXML = responseXMl.getChildElements()
+    responseArray = responseXMl.getChildElements() 
 
     result = []
  
@@ -99,5 +100,5 @@ Function ParseXML(str As String) As dynamic
    if str = invalid return invalid
    xml = CreateObject("roXMLElement")
    if not xml.Parse(str) return invalid
-    return xml
+   return xml
 End Function
