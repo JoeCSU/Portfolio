@@ -1,1 +1,0 @@
-The files in these folders are examples of some different things I've done with Python over the past couple of years. 
