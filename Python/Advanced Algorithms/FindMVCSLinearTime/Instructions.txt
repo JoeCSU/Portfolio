@@ -1,6 +1,0 @@
-To run the program:
-
-1) Must have Python installed and in the PATH
-2) Place FindMVCSLinearTime.py and any input files in the same folder and double click the .py file
-3) Enter the input filename with .txt extension included
-4) Input files must be text files with only integers, each integer must be separated by two spaces as in the sample files.

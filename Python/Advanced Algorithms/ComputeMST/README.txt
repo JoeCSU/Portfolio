@@ -1,1 +1,0 @@
-This doesn't fully work, and an object oriented approach would likely have served better. That said, I've included it here to show that I'm not shy about working with matrices in Python.
